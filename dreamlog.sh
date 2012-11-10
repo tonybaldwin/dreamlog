@@ -38,7 +38,7 @@ else
 		grep $2 *
 
 else
-	vi + ~/.dreamlog/$filedate.dream
+	vim ~/.dreamlog/$filedate.dream
 fi
 fi
 fi
