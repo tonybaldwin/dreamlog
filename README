@@ -1,0 +1,26 @@
+dreamlog.sh
+a simple dream log management system in bash
+by tony baldwin - www.tonybaldwin.me
+
+dreamlog - opens a new dreamlog file to edit in vim.
+dreamlog r - reads all entries (cats all files in the dir, pipes to less)
+dreamlog r yyyymmdd - reads entries from date yyyymmdd. One can specify just yyyymm, or just yyyy, even.
+dreamlog l - lists all dreamlog entries. Like r, it can be narrowed down with date parameters.
+dreamlog s searchterm - searches for searchterm in dream entries.
+dreamlog h - displays this help message.
+
+Yes. If you like, you can change "vim" to your preferred editor.
+
+This program was written by anthony baldwin - tony@tonybaldwin.org 
+it under the terms of the GNU General Public License as published by 
+the Free Software Foundation; either version 2 of the License, or 
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
