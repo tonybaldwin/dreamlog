@@ -20,6 +20,10 @@ Yes. If you like, you can change "vim" to your preferred editor.
 MORE INFORMATION: A more thorough installation and use description 
 is on my wiki at http://tonyb.us/dreams
 
+There's a man page (dreamlog.1.gz). If you want to use it, 
+copy it to the man pages directory. As root or sudo, do
+cp dreamlog.1.gz /usr/share/man/man1
+
 LICENSE:
 This program was written by anthony baldwin - tony@tonybaldwin.org 
 This program is free software; you can redistribute it and/or modify 
