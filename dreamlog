@@ -35,7 +35,7 @@ else
 else
 	if [[ $1 = s ]]; then
 		cd ~/.dreamlog
-		grep -i $2 *
+		grep -iw $2 *
 
 else
 	vim ~/.dreamlog/$filedate.dream
