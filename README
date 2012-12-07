@@ -2,18 +2,22 @@ dreamlog.sh
 a simple dream log management system in bash
 by tony baldwin - www.tonybaldwin.me
 
+Dreamlog site: http://tonyb.us/dream
+
 INSTALLATION:
-I keep this in ~/bin/dreamlog, but stick it anywhere in your path.
-Make a directory in your $HOME, ~/.dreamlog
+run the install.sh
 
 HOW TO USE DREAMLOG:
 
-dreamlog - opens a new dreamlog file to edit in vim.
+dreamlog - opens a new dreamlog file to edit in your chosen editor.
 dreamlog r - reads all entries (cats all files in the dir, pipes to less)
 dreamlog r yyyymmdd - reads entries from date yyyymmdd. One can specify just yyyymm, or just yyyy, even.
 dreamlog l - lists all dreamlog entries. Like r, it can be narrowed down with date parameters.
+dreamlog e filename - opens dreamlog file filename for editing.
+dreamlog v filename - opens dreamlog file filename for viewing.
 dreamlog s searchterm - searches for searchterm in dream entries.
 dreamlog h - displays this help message.
+dreamlog management system by tony baldwin, http://tonybaldwin.me, released according to GPL v. 3
 
 Yes. If you like, you can change "vim" to your preferred editor.
 
