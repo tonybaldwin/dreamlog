@@ -14,7 +14,7 @@ filedate=$(date +%Y%m%d%H%M%S)
 			
 if [[ $1 = r ]]; then
 	if [[ $2 ]]; then
-		cat $2* | less
+		less $2*
 	else
 		for i in $(ls -Rt *.dream); do cat $i; done | less
 	fi
