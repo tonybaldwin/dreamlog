@@ -16,7 +16,7 @@ if [[ $1 = r ]]; then
 	if [[ $2 ]]; then
 		less $2*
 	else
-		for i in $(ls -Rt *.dream); do cat $i; done | less
+		for i in $(ls -tr *.dream); do cat $i; done | less
 	fi
 else
 if [[ $1 = e ]]; then
